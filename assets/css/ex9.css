@@ -1,0 +1,24 @@
+body
+{
+    font-weight: bold;
+    color: #ffffff;
+}
+.class1
+{
+    background-color:#2574a9;
+    margin-right: 500px;
+}
+.class2
+{
+   background-color:#db0a5b; 
+    margin-right: 500px;
+}
+.class3
+{
+    background-color: #9a12b3;
+    margin-right: 500px;
+}
+ul
+{
+    list-style-type: none;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex9 formulaire</title>
+    <link rel="stylesheet" href="../ex9css/assets/css/ex9.css">
+</head>
+
+<body>
+    <form method="POST" action="#">
+        <fieldset class="class1">
+
+            <legend class="class1">Votre identité</legend>
+            <ol>
+                <li>
+                    <label for="lastname">Nom</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Nom" />
+                </li>
+                <li>
+                    <label for="firstname">Prénom</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Prénom" />
+                </li>
+                <li>
+                    <label>
+                        Adresse Mail
+                        <input type="email" name="mail" placeholder="Adresse Mail" />
+                    </label>
+                </li>
+            </ol>
+
+        </fieldset>
+
+        <fieldset class="class2">
+
+            <legend class="class2">Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="direction">Adresse</label>
+                    <textarea name="direction" id="direction" rows="5" cols="20"></textarea>
+                </li>
+                <li>
+                    <label for="code">Code postale</label>
+                    <input type="text" name="code" id="code" placeholder="Code postale" />
+                </li>
+                <li>
+                    <label for="city">Ville</label>
+                    <input type="text" name="city" id="city" placeholder="Ville" />
+                </li>
+            </ol>
+
+        </fieldset>
+
+        <fieldset class="class3">
+
+            <legend class="class3">Information de régelement</legend>
+            <ol>
+                <li>
+                    <label>
+                        Type de carte bancaire
+                    <ul>
+                        <li>
+                            <input type="radio" name="cardType" value="visa" id="visa" /><label for="visa">Visa</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cardType" value="masterCard" id="masterCard" /><label
+                                for="masterCard">Master
+                                Card</label>
+                        </li>
+
+                    </ul>
+                    </label>
+                </li>
+
+
+                <li>
+                    <label for="cardNumber">Numéro de carte</label>
+                    <input type="text" name="cardNumber" id="cardNumber" placeholder="Numéro de carte" />
+                </li>
+                <li>
+                    <label for="securityCode">Code de sécurité</label>
+                    <input type="text" name="securityCode" id="securityCode" placeholder="Code de sécurité" />
+                </li>
+                <li>
+                    <label for="titularName">Nom du titulaire</label>
+                    <input type="text" name="titularName" id="titularName" placeholder="Nom du titulaire" />
+                </li>
+            </ol>
+
+        </fieldset>
+        <input type="submit" value="j'achète" name="button">
+        <button type="submit" name="button">j'achète</button>
+    </form>
+</body>
+
+</html>
